@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#slider{
+    position: relative;
+    padding-top: 66.67%;
+    background: url(./resources/app.jpg) top center / cover no-repeat ;
+}
+#slider .box1{
+    opacity: 0.6;
+    border-radius: 10px; ;
+    position: absolute;
+    top:35%;
+    left: 0;
+    color: white;
+    background-color: black;
+    padding: 12px 24px;   
+    width: 35%;
+}
+.btn{
+    font-size: 120%;
+    width: 100%;
+    color: white;
+    background-color: green;
+    text-align: center;
+    margin: 20px 0; 
+    border-radius: 10px;
+    padding: 10px 0;
+}
+#slider .box1 h1,
+#slider .box1 p{
+    
+    text-align: center;
+    margin: 10px 0px;
+}
+hr{
+    margin: 20px 20px;
+}
+#slider .box1:hover {
+    opacity: 1;
+}
+#slider .box12:hover,
+#slider .box1 .btn:hover{
+    color: #000;
+    background-color: #ccc;
+}
+#slider .box1{
+    display: inline-block;
+}
+#slider .box12{   
+    background-color: black;
+    color: white;
+    position: absolute;
+    top:45%;
+    right: 0;
+    margin: 0 16px 0 0;
+    padding:8px 16px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#content{
+    padding-top: 64px;
+    display: flex;
+    padding-bottom: 64px;
+}
+#content .box2{
+    margin: 0 16px;
+    padding: 0 8px;
+}
+#content .inside-box2{
+    padding: 0 8px;
+    padding-left: 75px;
+    padding-right: 8px;
+}
+#content2 .box3 h1,
+#content .box2 h1{
+    font-weight: bolder;
+    font-size: 100px;
+    padding: 10px 0;
+}
+#content .box2 h2{
+    font-weight: bolder;
+    font-size: 75px;
+    color: green;
+    padding: 10px 0;
+}
+#content .box2 p,
+#content2 .box3 p{
+    padding: 10px 0;
+}
+#content .box2 button{
+    font-size: 160%;
+    padding: 12px 36px;
+    
+    font-style:inherit;
+}
+#content .box2:hover button{
+    background-color: #ccc;
+}
+#contet .box2 .wd{
+    color: blue;
+} 
+#content2 .box3 span,
+#content .box2 span{
+    font-size: 130%;
+    font-style:inherit;
+}
+#content2{
+    background-color: #f1f1f1;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+}
+#content2 .inside-box3,
+#content2 .box3{
+    padding: 0 8px;
+}
+#content2 .box3 h2{
+    font-weight: bolder;
+    font-size: 75px;
+    color: red;
+    padding: 10px 0;
+}
+#content3{
+    font-size: 36px;
+    color: white;
+    padding: 64px 16px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #616161;
+    row-gap: 100px;
+    column-gap: 400px;
+}
+
+.grid-head{
+grid-column: span 4;
+text-align: center;
+}
+#content3 .grid-items {
+    grid-column: span 1;
+    text-align: center;
+
+}
+#content4 .box4 h1,
+#content3 .grid-head h1{
+ font-size: 64px ;
+}
+#content3 .grid-head p{
+    font-size: 24px;
+    padding: 6px 0;
+}
+#content4{
+    grid-template-columns: auto auto;
+    display: grid;
+    padding-top: 64px ;
+    padding-bottom: 64px;
+}
+#content4 .box4{
+    margin-bottom:100px ;
+    text-align: center;
+    grid-column: span 2;
+}
+#content4 .box4 h1{
+    font-size: 64px;
+    font-weight: bolder;
+    font-style: oblique;
+}
+#content4 .nextto-box4,
+#content4 .box4 p{
+    font-size: 24px;
+}
+#content4 .nextto2-box4,
+#content4 .nextto1-box4 {
+    
+    margin: 10px;
+    border: 1px solid gray ; 
+    text-align: center;
+    grid-column: span 1;
+}
+#content4 .nextto1-box4 h1{
+    background-color: #616161;
+    padding:16px 32px;
+    margin: 0;
+}
+#content4 .nextto2-box4 h1{
+    background-color: red;
+    padding:16px 32px;
+    margin: 0;
+}
+#content4 .nextto2-box4 p,  
+#content4 .nextto1-box4 p{
+    font-size: 20px;
+    padding: 16px 32px;
+}
+#content4 span{
+    font-weight: bolder;
+}
+#content4 button{
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    padding: 8px 24px; 
+    margin: 16px;  
+}
+#content4 button:hover{
+    background-color: #ccc;
+    color: black;
+}
+#footer{
+padding-top: 64px ;
+
+}
+#footer .in-footer{
+    background-color: #ccc;
+    text-align: center;
+}
+#footer ul{
+    font-size: 250%;
+    display: flex;
+    list-style: none;
+    background-color: #ccc;
+    padding: 20px 50%; 
+    align-items: center;
+    justify-content: center;
+}
+#footer li{
+    margin: 0 10px;
+}
+#footer a:hover{
+    background-color: #ccc;
+    color: green;
+}
+
+
+
+
+
